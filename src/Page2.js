@@ -51,31 +51,31 @@ function Page2() {
 
 
         <div className="awards row-span-1 my-2 mr-6 font-medium">
-          <h2 className="font-bold text-4xl mb-6">Awards</h2>
-          <h2 className="font-semibold text-2xl mb-4">Award 1</h2>
-          <p className="my-4 font-normal">Jan 2019</p>
+          <h2 className="font-bold text-4xl mb-4">Awards</h2>
+          <h2 className="font-semibold text-2xl mb-2">Award 1</h2>
+          <p className="my-2 font-normal">Jan 2019</p>
           <p className="font-semibold">Company 1</p>
-          <p className="my-4 font-normal">URL : www.example1.com</p>
-          <ul className="list-disc ml-8  my-2"><li>It's very important for the patient to be patient, and the patient will be followed.</li></ul>
-          <h2 className="font-semibold text-2xl my-4">Award 2</h2>
-          <p className="font-normal">Dec 2018</p>
+          <p className="my-2 font-normal">URL : www.example1.com</p>
+          <ul className="list-disc ml-8 my-2"><li>It's very important for the patient to be patient, and the patient will be followed.</li></ul>
+          <h2 className="font-semibold text-2xl mb-2 mt-4">Award 2</h2>
+          <p className="font-normal my-2">Dec 2018</p>
           <p className="font-semibold">Company 2</p>
-          <p className="my-4 font-normal">URL : www.example1.com</p>
+          <p className="my-2 font-normal">URL : www.example1.com</p>
           <ul className="list-disc ml-8 my-2"><li>It's very important for the patient to be patient, and the patient will be followed.</li></ul>
         </div>
 
 
         <div className="certifications row-span-1 my-4 mb-10 z-10">
-          <h2 className="font-bold text-4xl my-8">Certifications</h2>
-          <h2 className="font-semibold text-2xl mb-4">Azure Fundamentals</h2>
-          <p className="my-4 font-normal">Jan 2019</p>
+          <h2 className="font-bold text-4xl mt-6">Certifications</h2>
+          <h2 className="font-semibold text-2xl mt-4">Azure Fundamentals</h2>
+          <p className="my-2 font-normal">Jan 2019</p>
           <p className="font-semibold">Udemy</p>
-          <p className="my-4 font-normal">URL : www.example1.com</p>
+          <p className="my-2 font-normal">URL : www.example1.com</p>
           <ul className="list-disc ml-8  my-2"><li>It's very important for the patient to be patient, and the patient will be followed.</li></ul>
-          <h2 className="font-semibold text-2xl my-4">AWS</h2>
-          <p className="font-normal">Dec 2018</p>
+          <h2 className="font-semibold text-2xl mt-4">AWS</h2>
+          <p className=" my-2 font-normal">Dec 2018</p>
           <p className="font-semibold">Udemy</p>
-          <p className="my-4 font-normal">URL : www.example1.com</p>
+          <p className="my-2 font-normal">URL : www.example1.com</p>
           <ul className="list-disc ml-8 my-2"><li>It's very important for the patient to be patient, and the patient will be followed.</li></ul>
 
         </div>

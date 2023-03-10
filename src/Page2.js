@@ -12,20 +12,20 @@ function Page2() {
   return (
     <>
       <div className=" absolute parent-grid grid grid-cols-2 gap-6 border-solid border-black h-auto border-4 pr-20 pl-16 pt-28 mx-48 font-sans">
-        <img src={shape1} className="absolute top-0 left-0 z-0 w-96" />
-        <img src={shape2} className="absolute bottom-0 z-0" />
-        <img src={shape3} className="absolute bottom-0 right-0 z-0" />
+        <img src={shape1} alt="shape" className="absolute top-0 left-0 z-0 w-96" />
+        <img src={shape2} alt="shape" className="absolute bottom-0 z-0" />
+        <img src={shape3} alt="shape" className="absolute bottom-0 right-0 z-0" />
 
 
 
         <div className="techskills row-span-1 font-medium my-10">
           <h2 className="font-bold text-4xl mb-6">Technical Skills</h2>
           <h2 className="font-bold text-xl my-3">Technical Skill 1</h2>
-          <img src={skill} />
+          <img src={skill} alt="skill-meter" />
           <h2 className="font-bold text-xl my-3 ">Technical Skill 1</h2>
-          <img src={skill} />
+          <img src={skill} alt="skill-meter" />
           <h2 className="font-bold text-xl my-3 ">Technical Skill 1</h2>
-          <img src={skill} />
+          <img src={skill} alt="skill-meter" />
         </div>
 
 
@@ -35,12 +35,12 @@ function Page2() {
           <p className="my-4 font-normal">Jan 2022 - Present</p>
           <h3 className="font-bold text-2xl my-2">Invision Company | City | Country</h3>
           <p className=" mt-2 font-medium">{sampletext}</p>
-          <img src={line} className="my-8 h-1"></img>
+          <img src={line} alt="blue-line"  className="my-8 h-1"></img>
           <h3 className="font-semibold text-3xl my-2">Junior Graphic Designer</h3>
           <p className="my-4 font-normal">Jan 2020 - Jan 2021</p>
           <h3 className="font-bold text-2xl my-2">Invision Company | City | Country</h3>
           <p className=" mt-2 font-medium">{sampletext}</p>
-          <img src={line} className="my-8 h-1"></img>
+          <img src={line} alt="blue-line" className="my-8 h-1"></img>
           <h3 className="font-semibold text-3xl my-2">Graphic Designer</h3>
           <p className="my-4 font-normal">Jan 2018 - Jan 2020</p>
           <h3 className="font-bold text-2xl my-2">Invision Company | City | Country</h3>

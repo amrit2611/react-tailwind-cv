@@ -16,7 +16,7 @@ import skill5 from "./images/skill5-removebg-preview.png";
 import shape1 from "./images/shape1.png";
 import shape2 from "./images/shape2.png";
 import shape3 from "./images/shape3.png";
-import cvLogo from "./images/cv.png";
+// import cvLogo from "./images/cv.png";
 
 const profileDetails = "It is important to take care of the pain itself, and it will be followed by the growth of the patient, but at the same time it will happen that there is a lot of work and pain. For to come to the smallest detail, no one should practice any kind of work unless he derives some benefit from it. Do not be angry with the pain in the reprimand in the pleasure he wants to be a hair from the pain in the hope that there is no breeding. Unless they are blinded by lust, they do not come out; that is toil."
 
@@ -25,10 +25,10 @@ function Page1() {
     return (
         <>
             <div className=" absolute parent-grid grid grid-cols-2 gap-10 border-solid border-black h-auto border-4 p-24 mx-48 font-sans">
-                <img src={shape1} className="absolute top-0 left-6 z-0 w-96" />
-                <img src={shape2} className="absolute bottom-0 z-0" />
-                <img src={shape3} className="absolute bottom-0 right-0 z-0" />
-                <img className="profile-image row-span-1 w-60 align-middle mr-auto mb-8 z-10" src={profileImages} alt='Profile Image' />
+                <img src={shape1} alt="shape"  className="absolute top-0 left-6 z-0 w-96" />
+                <img src={shape2} alt="shape"  className="absolute bottom-0 z-0" />
+                <img src={shape3} alt="shape"  className="absolute bottom-0 right-0 z-0" />
+                <img className="profile-image row-span-1 w-60 align-middle mr-auto mb-8 z-10" src={profileImages} alt='Profile_photo' />
                 <div className="intro row-span-2 mt-28 mb-4">
                     <h1 className="font-bold text-6xl my-2">Devon Lane</h1>
                     <h3 className="font-bold text-3xl text-gray-600 my-5">Graphic Designer</h3>

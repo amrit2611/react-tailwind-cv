@@ -20,7 +20,7 @@ function Page3() {
 
 
         <div className="language row-span-1 h-min font-medium my-10">
-          <h2 className="font-bold text-4xl mb-6">Language</h2>
+          <h2 className="font-bold text-4xl mb-4">Language</h2>
           <h2 className="font-bold text-xl my-3">English</h2>
           <img src={skill1} />
           <h2 className="font-bold text-xl my-3 ">Hindi</h2>
@@ -30,7 +30,7 @@ function Page3() {
         </div>
 
 
-        <div className="projects row-span-4 mt-5">
+        <div className="projects row-span-4 mt-10">
           <h1 className="font-bold text-4xl mb-4">Projects</h1>
           <h3 className="font-semibold text-3xl my-2">Project Title</h3>
           <p className="my-4 font-normal">Jan 2022 - Ongoing</p>
@@ -46,33 +46,34 @@ function Page3() {
 
 
 
-        <div className="internships row-span-2 my-2 mr-6 h-min font-medium">
-          <h2 className="font-bold text-4xl mb-4">Internships</h2>
+        <div className="internships row-span-2 w-72 mt-4 mr-6 h-min font-medium">
+          <h2 className="font-bold text-4xl mb-2">Internships</h2>
           <h2 className="font-semibold text-2xl mb-2">Internship 1</h2>
-          <p className="my-2 font-normal">Jan 2019 - Jun 2019</p>
+          <p className="my-3 font-normal">Jan 2019 - Jun 2019</p>
           <p className="font-semibold">Company 1 | City | Country</p>
-          <p className="my-2 font-normal">URL : www.example1.com</p>
+          <p className="my-3 font-normal">URL : www.example1.com</p>
           <ul className="list-disc ml-8 my-2">
-            <li>It's very important for the patient to be patient, and the patient will be followed.</li><li>It's very important for the patient to be patient, and the patient will be followed.</li>
+            <li>It's very important for the patient to be patient, and the patient will be followed.</li>
+            <li>It's very important for the patient to be patient, and the patient will be followed.</li>
           </ul>
         </div>
 
 
-        <div className="interests row-span-1 h-min my-4 mb-10 z-10">
+        <div className="interests row-span-1 h-min mt-1 z-10">
           <h2 className="font-bold text-4xl mt-6 mb-6">Personal Interests</h2>
           <ul className="list-disc ml-8  my-2">
-            <li className="my-1">It's very important.</li>
-            <li className="my-1">It's very important.</li>
-            <li className="my-1">It's very important.</li>
-            <li className="my-1">It's very important.</li>
-            <li className="my-1">It's very important.</li>
-            <li className="my-1">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
+            <li className="my-1 font-medium">It's very important.</li>
           </ul>
         </div>
 
-        <div className="row-span-1"></div>
+        <div className="row-span-2"></div>
 
-        <div className="training row-span-1 mb-20 mr-6 font-medium">
+        <div className="training row-span-2 mb-20 mr-6 font-medium">
           <h2 className="font-bold text-4xl mb-4">Training</h2>
           <h2 className="font-semibold text-2xl mb-2">Training Title</h2>
           <p className="my-2 font-normal">Jan 2018 - Jun 2018</p>
